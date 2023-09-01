@@ -1,7 +1,7 @@
-const { ctrlWrapper } = require("../helpers");
+const { ctrlWrapper } = require("../../helpers");
 const path = require("path");
 const fs = require("fs/promises");
-const { User } = require("../models/user");
+const { User } = require("../../models/user");
 const jimp = require("jimp");
 
 const avatarsDir = path.join(__dirname, "../", "public", "avatars");

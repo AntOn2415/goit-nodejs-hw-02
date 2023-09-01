@@ -1,6 +1,6 @@
-const { User } = require("../models/user");
+const { User } = require("../../models/user");
 
-const { HttpError, ctrlWrapper } = require("../helpers");
+const { HttpError, ctrlWrapper } = require("../../helpers");
 
 const updateUserSubscription = async (req, res) => {
   const { _id: userId } = req.user;
